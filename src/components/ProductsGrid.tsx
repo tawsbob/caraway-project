@@ -1,13 +1,14 @@
 import React from 'react'
 import * as stylex from '@stylexjs/stylex';
 import ProductCard, { ProductCardProps } from './ProductCard';
+import Markup from './Markup';
 
 type ProductsGridProps = {
     products: ProductCardProps[]
 };
 
 const styles = stylex.create({
-  productsGrid: {
+  productsGridStyles: {
     display: 'flex',
     gap: '1.2rem',
     padding: '2.5rem 0',
@@ -18,13 +19,13 @@ const styles = stylex.create({
 const ProductsGrid = ({ 
   products = []  
 }:ProductsGridProps) => {
-  const stylesProps = stylex.props(styles.productsGrid)
+  const { productsGridStyles } = styles;
   return (
-    <section {...stylesProps}>
+    <Markup as="section" styles={[productsGridStyles]}>
       {products.map((product) => (
         <ProductCard key={product.id} {...product} />
       ))}
-    </section>
+    </Markup>
   )
 }
 

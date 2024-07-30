@@ -1,6 +1,7 @@
 import * as stylex from '@stylexjs/stylex';
 import Image from 'next/image';
 import Button from './Button';
+import Markup from './Markup';
 
 export type ProductCardProps = {
   id: string
@@ -14,30 +15,30 @@ export type ProductCardProps = {
 };
 
 const styles = stylex.create({
-  productCard: {
+  productCardStyles: {
     display: 'flex',
     flexDirection: 'column',
     gap: '1rem',
     maxWidth: '233px',
   },
-  title: {
+  productTitleStyles: {
     fontSize: '0.9rem',
     fontWeight: 'normal',
     margin: '0 0 5px',
   },
 
-  price: {
+  priceStyle: {
     fontSize: '.85rem',
   },
-  compareAt: {
+  compareAtStyle: {
     textDecoration: 'line-through',
     fontSize: '.75rem',
   },
-  contentGrid: {
+  contentGridStyles: {
     display: 'flex',
     gap: '1rem',
   },
-  textContainer: {
+  textContainerStyles: {
     flex: '1',
   }
 })
@@ -52,34 +53,33 @@ const ProductCard = ({
   compare_at_price = "",
 }:ProductCardProps) => {
 
-  //can be better I know :)
-  const stylesProps = stylex.props(styles.productCard)
-  const titleStyles = stylex.props(styles.title)
-  const priceStyles = stylex.props(styles.price)
-  const compareAtStyles = stylex.props(styles.compareAt)
-  const contentGridStyles = stylex.props(styles.contentGrid)
-  const textContainerStyles = stylex.props(styles.textContainer)
-
+  const { productCardStyles, productTitleStyles, contentGridStyles, textContainerStyles, priceStyle, compareAtStyle } = styles;
+  
   return (
-    <div {...stylesProps}>
-      <div>
-        <Image src={hero_image.src} alt={hero_image.alt} width={233} height={300} style={{ objectFit: "contain" }} title={hero_image.alt} />
-      </div>
-      <div {...contentGridStyles}>
-        <div {...textContainerStyles}>
-          <h3 {...titleStyles}>{title}</h3>
-          <span {...priceStyles}>{price}</span>
+    <Markup styles={[productCardStyles]}>
+      <Markup>
+        <Image 
+          src={hero_image.src} 
+          alt={hero_image.alt} 
+          width={233} 
+          height={300} 
+          style={{ objectFit: "contain" }} title={hero_image.alt} />
+      </Markup>
+      <Markup styles={[contentGridStyles]}>
+        <Markup styles={[textContainerStyles]}>
+          <Markup as="h3" styles={[productTitleStyles]}>{title}</Markup>
+          <Markup as="span" styles={[priceStyle]}>{price}</Markup>
           {" "}
-          <span {...compareAtStyles}>{compare_at_price}</span>
-        </div>
-        <div>
+          <Markup as="span" styles={[compareAtStyle]}>{compare_at_price}</Markup>
+        </Markup>
+        <Markup>
           <Button type="yellow">
             Add to Cart
           </Button>
-        </div>
-      </div>
+        </Markup>
+      </Markup>
       
-    </div>
+    </Markup>
   )
 }
 
