@@ -35,11 +35,11 @@ The page should display a list of products grouped with the instructions on the 
   - Hero Image
   - Title
   - Pricing
-  - Swatches (max 6 per product)
+  - Add To Cart button (no functionality required)
 
 
 #### Some things to keep in mind
- - You do not need to add any click functionality to swatches.
+ - You do not need to add any click functionality any component.
  - We want to see how far you can go and how you think about solving these problems.
  - Technical implementation is important.
  - You can use additional libraries.
