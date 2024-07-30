@@ -1,13 +1,16 @@
 import TextBanner from "@/components/TextBanner";
 import Container from "@/components/Container"
 import Marquee from "@/components/Marquee";
-import ProductCard from "@/components/ProductCard";
-
+import ProductsGrid from "@/components/ProductsGrid";
+import { getProductsByType } from "@/utils/products";
 import data from "./data.json";
-
+import { Root } from "./data";
 
 export default function Home() {
-  const { products } = data;
+  const { products } = data as Root;
+
+  const cookwareAndBakeware = getProductsByType(products, ['cookware','bakeware']);
+  const prepwareAccessories = getProductsByType(products, ['prepware']);
 
   return (
     <main>
@@ -19,6 +22,7 @@ export default function Home() {
             theme="navy"
         />
         {/* insert cookware and bakeware here */}
+        <ProductsGrid products={cookwareAndBakeware} />
         <Marquee
           items={[
             {
@@ -35,6 +39,7 @@ export default function Home() {
             body="Be ready for any recipe with Caraway’s extended Cookware family."
         />
         {/* insert prepware accessories here */}
+        <ProductsGrid products={prepwareAccessories} />
       </Container>
     </main>
   );
