@@ -30,7 +30,9 @@ To learn more about Next.js, take a look at the following resources:
 Objective: Update the product listing page using TypeScript, React, StyleX and Next.js.
 The page should display a list of products grouped with the instructions on the page (see page.tsx)
 
-- Use the static `data.json` file (do not edit)
+![example](https://github.com/user-attachments/assets/463687c7-91ff-4aee-8812-a484fca5b0c8)
+
+- Use the static `data.json` file for all product data (do not edit the data.json file)
 - Use the example image attached to create the Product Card with the following properties
   - Hero Image
   - Title
