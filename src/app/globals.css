@@ -1,11 +1,11 @@
 :root {
   --max-width: 1100px;
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb:#fbfcf9;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb:#fbfcf9;
   }
 }
 
