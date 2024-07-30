@@ -219,7 +219,6 @@ const Container = ({
   paddingBlock,
   styleProp = false
 }: Props) => {
-  // eslint-disable-next-line @typescript-eslint/naming-convention
   const Component = as || 'div'
   return (
     <Component
