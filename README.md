@@ -44,4 +44,5 @@ The page should display a list of products grouped with the instructions on the 
  - Technical implementation is important.
  - You can use additional libraries.
  - Does not need to be mobile responsive. Some grid or container should be present
+ - Do not exceed 3 hours.
 
