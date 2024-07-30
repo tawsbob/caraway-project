@@ -44,5 +44,5 @@ The page should display a list of products grouped with the instructions on the 
  - Technical implementation is important.
  - You can use additional libraries.
  - Does not need to be mobile responsive. Some grid or container should be present
- - Do not exceed 3 hours.
+ - This challenge typically takes about 90 minutes to complete. Do not exceed 3 hours.
 
