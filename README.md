@@ -48,3 +48,6 @@ The page should display a list of products grouped with the instructions on the 
  - Does not need to be mobile responsive. Some grid or container should be present
  - This challenge typically takes about 90 minutes to complete. Do not exceed 3 hours.
 
+#### Submit you work
+ - Notify your recruiter and share a GitHub link with the completed work.
+
