@@ -1682,87 +1682,94 @@
       ]
     },
     {
-      "id": 7249172824146,
-      "title": "Medium Cutting Board",
-      "handle": "medium-cutting-board",
-      "body_html": "<span data-metadata=\"&lt;!--(figmeta)eyJmaWxlS2V5IjoiNEVDR1Y2RFczQU5DS2JMcEk0OGNvcCIsInBhc3RlSUQiOjU2MTIwMzY0MSwiZGF0YVR5cGUiOiJzY2VuZSJ9Cg==(/figmeta)--&gt;\"></span><span data-mce-fragment=\"1\">Slice &amp; dice without letting microplastics into your food. This medium-sized non-toxic Cutting Board is made with FSC-certified birch wood and finished with food-safe mineral oil &amp; wax. And the best part? The board’s backside features recessed grooves around the entire perimeter that can catch excess liquid if cutting juicy food such as fruit or meats.</span><br>",
-      "published_at": "2024-03-27T11:38:09-04:00",
-      "created_at": "2024-03-11T13:50:12-04:00",
-      "updated_at": "2024-07-29T20:31:21-04:00",
+      "id": 7225437487186,
+      "title": "Kitchen Gadget Set",
+      "body_html": "<span>Crafted with non-toxic stainless steel, these 5 essential gadgets combine form &amp; function. With no plastic or silicone, this first-ever premium line of kitchen tools is durable and easy to use. The included organizer, made of 100% FSC-certified birch wood, fits away neatly. Say goodbye to the junk drawer.</span>",
       "vendor": "Caraway",
       "product_type": "Prepware",
-      "tags": [
-        "Prepware"
-      ],
+      "created_at": "2024-01-29T15:23:51-05:00",
+      "handle": "stainless-steel-kitchen-gadget-set",
+      "updated_at": "2024-07-29T19:42:06-04:00",
+      "published_at": "2024-02-26T09:40:28-05:00",
+      "template_suffix": "",
+      "published_scope": "web",
+      "tags": "Prepware",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/7225437487186",
       "variants": [
         {
-          "id": 40772105797714,
-          "title": "FSC Wood",
-          "option1": "FSC Wood",
+          "id": 40703067422802,
+          "product_id": 7225437487186,
+          "title": "Stainless Steel",
+          "price": "195.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": "245.00",
+          "option1": "Stainless Steel",
           "option2": null,
           "option3": null,
-          "sku": "KW-MCTB-101",
-          "requires_shipping": true,
+          "created_at": "2024-01-29T15:23:53-05:00",
+          "updated_at": "2024-07-29T19:42:06-04:00",
           "taxable": true,
-          "featured_image": {
-            "id": 31088785391698,
-            "product_id": 7249172824146,
-            "position": 1,
-            "created_at": "2024-03-11T13:50:12-04:00",
-            "updated_at": "2024-03-11T13:50:15-04:00",
-            "alt": null,
-            "width": 1920,
-            "height": 1440,
-            "src": "https://cdn.shopify.com/s/files/1/0258/6273/3906/files/MediumCuttingBoard-EcommonWhite.png?v=1710179415",
-            "variant_ids": [
-              40772105797714
-            ]
-          },
-          "available": true,
-          "price": "65.00",
-          "grams": 1520,
-          "compare_at_price": "65.00",
-          "position": 2,
-          "product_id": 7249172824146,
-          "created_at": "2024-03-11T13:50:12-04:00",
-          "updated_at": "2024-07-29T20:31:21-04:00"
-        }
-      ],
-      "images": [
-        {
-          "id": 31088785391698,
-          "created_at": "2024-03-11T13:50:12-04:00",
-          "position": 1,
-          "updated_at": "2024-03-11T13:50:15-04:00",
-          "product_id": 7249172824146,
-          "variant_ids": [
-            40772105797714
-          ],
-          "src": "https://cdn.shopify.com/s/files/1/0258/6273/3906/files/MediumCuttingBoard-EcommonWhite.png?v=1710179415",
-          "width": 1920,
-          "height": 1440
-        },
-        {
-          "id": 31088785522770,
-          "created_at": "2024-03-11T13:50:25-04:00",
-          "position": 2,
-          "updated_at": "2024-03-11T13:50:26-04:00",
-          "product_id": 7249172824146,
-          "variant_ids": [],
-          "src": "https://cdn.shopify.com/s/files/1/0258/6273/3906/files/MediumCuttingBoard-EcommonWhite_a0868418-80e7-41fe-9852-922fdc8d8532.png?v=1710179426",
-          "width": 1920,
-          "height": 1440
+          "barcode": "810118300356",
+          "fulfillment_service": "manual",
+          "grams": 2622,
+          "inventory_management": "shopify",
+          "requires_shipping": true,
+          "sku": "KW-KCGT-101",
+          "weight": 5.78,
+          "weight_unit": "lb",
+          "inventory_item_id": 42804287930450,
+          "inventory_quantity": 2950,
+          "old_inventory_quantity": 2950,
+          "tax_code": "",
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/40703067422802",
+          "image_id": 31037839900754
         }
       ],
       "options": [
         {
-          "name": "Color",
+          "id": 9398495117394,
+          "product_id": 7225437487186,
+          "name": "Material",
           "position": 1,
           "values": [
-            "FSC Wood"
+            "Stainless Steel"
           ]
         }
-      ]
+      ],
+      "images": [
+        {
+          "id": 31037839900754,
+          "alt": null,
+          "position": 1,
+          "product_id": 7225437487186,
+          "created_at": "2024-02-20T14:12:39-05:00",
+          "updated_at": "2024-02-20T14:12:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/ProductImage/31037839900754",
+          "width": 1920,
+          "height": 1440,
+          "src": "https://cdn.shopify.com/s/files/1/0258/6273/3906/files/Kitchen_Gadgets_Set_-_Gallery_Image_1.jpg?v=1708456360",
+          "variant_ids": [
+            40703067422802
+          ]
+        }
+      ],
+      "image": {
+        "id": 31037839900754,
+        "alt": null,
+        "position": 1,
+        "product_id": 7225437487186,
+        "created_at": "2024-02-20T14:12:39-05:00",
+        "updated_at": "2024-02-20T14:12:40-05:00",
+        "admin_graphql_api_id": "gid://shopify/ProductImage/31037839900754",
+        "width": 1920,
+        "height": 1440,
+        "src": "https://cdn.shopify.com/s/files/1/0258/6273/3906/files/Kitchen_Gadgets_Set_-_Gallery_Image_1.jpg?v=1708456360",
+        "variant_ids": [
+          40703067422802
+        ]
+      }
     },
     {
       "id": 7249176756306,
